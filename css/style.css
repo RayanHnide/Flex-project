@@ -1,0 +1,225 @@
+nav ul{
+    padding: 10px;
+}
+nav .navbar-brand{
+    padding-left: 100px;
+}
+.navbar a{
+    color: darkblue;
+}
+.navbar a:hover{
+    color: blue;
+}
+nav .nav-item{
+    padding-right: 30px;
+}
+nav .btn{
+    margin-right: 60px;
+}
+.Home button i{
+    margin-left: 5px;
+    font-size: 18px;
+}
+.About{
+  background-color: #f6f9ff;
+}
+.About .btn-read-more i {
+    margin-left: 5px;
+    font-size: 18px;
+}
+.Values .card img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.Values .card:hover img {
+    transform: scale(1);
+}
+.Counts {
+    padding: 70px 60px;
+}
+.Counts .count-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.Counts .count-box i {
+    font-size: 40px;
+    margin-right: 20px;
+}
+.Features .feature-box {
+    padding: 24px 20px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.Features .feature-box i {
+    padding: 4px;
+    background-color: lightgray;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.Features .feature-box:hover i {
+    background-color: blue;
+    color: white;
+}
+.Features .Features1 {
+    margin-top: 100px;
+}
+.Features .Features1 ul{
+    list-style: none;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px;
+}
+.Features .Features1 ul li{
+    display: inline-block;
+}
+.Features .Features1 ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.Services .ser1{
+    border-bottom: 2px solid blue;
+}
+.Services .ser1 :hover{
+    background-color: blue;
+    color: white;
+}
+.Services .ser2{
+    border-bottom: 2px solid orange;
+}
+.Services .ser2 :hover{
+    background-color: orange;
+    color: white;
+}
+.Services .ser2 a{
+    color: orange;
+}
+.Services .ser3{
+    border-bottom: 2px solid green;
+}
+.Services .ser3 :hover{
+    background-color: green;
+    color: white;
+}
+.Services .ser3 a{
+    color: green;
+}
+.Services .ser4{
+    border-bottom: 2px solid red;
+}
+.Services .ser4 :hover{
+    background-color: red;
+    color: white;
+}
+.Services .ser4 a{
+    color: red;
+}
+.Services .ser5{
+    border-bottom: 2px solid purple;
+}
+.Services .ser5 :hover{
+    background-color: purple;
+    color: white;
+}
+.Services .ser5 a{
+    color: purple;
+}
+.Services .ser6{
+    border-bottom: 2px solid pink;
+}
+.Services .ser6 :hover{
+    background-color: pink;
+    color: white;
+}
+.Services .ser6 a{
+    color: pink;
+}
+.Services a{
+    text-decoration: none;
+}
+.Pricing ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+.Pricing img {
+    padding: 30px 40px;
+}
+.Pricing .card:hover {
+    transform: scale(1.1);
+}
+.Portfolio ul {
+    list-style: none;
+    border-radius: 50px;
+    margin: 25px;
+    padding: 2px 15px;
+}
+.Portfolio ul li{
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    margin: 0 4px 8px 4px;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+.Portfolio ul .all {
+    color: blue;
+    border: 1px solid blue;
+}
+.Portfolio ul li:hover{
+    color: blue;
+    border-color: blue;
+}
+.Blog a{
+    text-decoration: none;
+}
+.Blog .post:hover img{
+    transform: rotate(4deg);
+}
+.Clients img{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.Clients img:hover{
+    opacity: 1;
+}
+.Contact .contact-box {
+    background-color: lightgray;
+}
+.footer .footer-icons i{
+    opacity: 0.5;
+    color: gray;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.footer .footer-icons i:hover{
+    opacity: 1;
+    color: blue;
+}
+.footer{
+    background: white url(../images/footer-bg.png) no-repeat right top;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-size: contain;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-links ul li{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footer ul li a:hover{
+    color: blue;
+}
+.copyright{
+    color: blue;
+}
